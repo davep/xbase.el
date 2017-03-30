@@ -83,7 +83,7 @@
   :prefix "xbase-")
 
 (defcustom xbase-mode-indent 3
-  "*Default indentation per nesting level"
+  "*Default indentation per nesting level."
   :type 'integer
   :group 'xbase)
 
@@ -517,7 +517,7 @@ Note: WHOLE-EXP is currently ignored."
   :group 'xbase)
 
 (defcustom xbase-logic-face 'font-lock-builtin-face
-  "*Face to use for logic operators"
+  "*Face to use for logic operators."
   :type  'face
   :group 'xbase)
 
