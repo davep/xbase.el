@@ -70,7 +70,7 @@
 
 ;; Things we need:
 (eval-when-compile
-  (require 'cl))
+  (require 'cl-lib))
 (require 'font-lock)
 
 ;; General customize options.
@@ -526,8 +526,8 @@ Note: WHOLE-EXP is currently ignored."
 
 This function is used by `xbase-mode' as the value for
 `end-of-defun-function'. This makes \\[end-of-defun] work in Xbase buffers."
-  (flet ((defunp ()
-           (eq (xbase-rule-name (xbase-current-line-match)) 'xbase-defun)))
+  (cl-flet ((defunp ()
+              (eq (xbase-rule-name (xbase-current-line-match)) 'xbase-defun)))
     (when (defunp)                      ; If we're on the start of a function.
       (forward-line 1))                 ; skip forward a line.
     ;; Look for the start of another function or the end of the buffer.
