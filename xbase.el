@@ -5,7 +5,7 @@
 ;; Author: Mike Romberg <romberg@fsl.noaa.gov>
 ;; Author: Dave Pearson <davep@davep.org>
 ;; Version: 1.36
-;; Keywords: language
+;; Keywords: languages
 ;; URL: https://github.com/davep/xbase.el
 ;; Package-Requires: ((cl-lib "0.5"))
 
