@@ -592,4 +592,6 @@ Special commands:
   (set-syntax-table xbase-mode-syntax-table)
   (run-hooks 'xbase-mode-hook))
 
+(provide 'xbase)
+
 ;;; xbase.el ends here
