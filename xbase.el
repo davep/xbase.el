@@ -3,6 +3,13 @@
 ;;                    Dave Pearson <davep@davep.org>
 ;; $Id: xbase.el,v 1.37 2002/07/13 11:08:36 davep Exp $
 
+;; Author: Mike Romberg <romberg@fsl.noaa.gov>
+;; Author: Dave Pearson <davep@davep.org>
+;; Version: 1.36
+;; Keywords: language
+;; URL: https://github.com/davep/xbase.el
+;; Package-Requires: ((cl-lib "0.5"))
+
 ;; xbase.el is free software distributed under the terms of the GNU General
 ;; Public Licence, version 2. For details see the file COPYING.
 
