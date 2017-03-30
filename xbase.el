@@ -1,7 +1,6 @@
 ;;; xbase.el --- A mode for editing Xbase programs.
 ;; Copyright (C) 2002 Mike Romberg <romberg@fsl.noaa.gov> and
 ;;                    Dave Pearson <davep@davep.org>
-;; $Id: xbase.el,v 1.37 2002/07/13 11:08:36 davep Exp $
 
 ;; Author: Mike Romberg <romberg@fsl.noaa.gov>
 ;; Author: Dave Pearson <davep@davep.org>
